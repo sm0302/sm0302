@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <title>회원가입</title>
+  <style>
+  	
+  </style>
+ </head>
+ <body>
+<!--form태그의 주소는 사과로리턴-김성민(제출용).html의 파일 주소를 이용하세요.
+  !-->
+  <form action="C:/Users/82109/Desktop/공부/editplus/사과-김성민(제출용).html">
+  	<fieldset>
+		<legend>로그인</legend>
+		<p><strong>아이디</strong>
+		<input type="text" name="id" value="영문이나 한글 또는 숫자" onFocus="this.value='';return true;"  required>
+		</p>
+		<p><strong>비밀번호</strong>
+		<input type="password" name="password" onFocus="this.value='';return true;"  required>
+		</p>
+	</fieldset>
+	<fieldset>
+		<legend>개인정보</legend>
+		<p><strong>이름</strong>
+		<input type="text" name="name" 
+		value="이름" onFocus="this.value='';return true;" required>
+		</p>
+		<p><strong>성별</strong>
+		<input type="radio" name="gender" value="M" required>남자
+		<input type="radio" name="gender" value="W" required>여자
+		</p>
+		<p><strong>주소</strong>
+		<input type="text" name="address" value="도로명 주소로 기입" onFocus="this.value='';return true;" required
+		>
+		</p>
+		<p><strong>전화번호</strong>
+		<input type="tel" name="tel" value="전화번호" onFocus="this.value='';return true;" required>
+		</p>
+	</fieldset>
+	<fieldset>
+		<legend>추가정보</legend>
+		<p><strong>취미</strong>
+		<input type="checkbox" name="hobby" value="read">독서
+		<input type="checkbox" name="hobby" value="health">운동(헬스)
+		<input type="checkbox" name="hobby" value="study">공부
+		<input type="checkbox" name="hobby" value="sports">운동(스포츠)
+		<input type="checkbox" name="hobby" value="music">음악감상
+		</p>
+		<p><strong>이메일</strong>
+		<input type="email" name="email" value="이메일 작성" onFocus="this.value='';return true;">
+		</p>
+	</fieldset>
+	<input type="submit" value="회원가입">
+	<input type="reset" value="다시 작성">
+  </form>
+ </body>
+</html>
