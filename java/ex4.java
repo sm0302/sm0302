@@ -4,43 +4,18 @@ public class ex4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		/*     *        °ø¹é4¹ø º°1¹ø
-		 *    **        °ø¹é3¹ø º°2¹ø
-		 *   ***    ->  °ø¹é2¹ø º°3¹ø
-		 *  ****        °ø¹é1¹ø º°4¹ø
-		 * *****        °ø¹é0¹ø º°5¹ø
-		 * i=0 j=0 z=4  °ø¹é4¹ø º°1¹ø
+		/*
+		 * * ê³µë°±4ë²ˆ ë³„1ë²ˆ ** ê³µë°±3ë²ˆ ë³„2ë²ˆ *** -> ê³µë°±2ë²ˆ ë³„3ë²ˆ **** ê³µë°±1ë²ˆ ë³„4ë²ˆ ***** ê³µë°±0ë²ˆ ë³„5ë²ˆ i=0 j=0
+		 * z=4 ê³µë°±4ë²ˆ ë³„1ë²ˆ
 		 */
-		for(int i=0;i<5;i++) {
-			switch(i) {
-			case 0:
-				for(int z=4;z>0;z--){
-					System.out.print(" ");
-				}
-				break;
-			case 1:
-				for(int z=3;z>0;z--){
-					System.out.print(" ");
-				}
-				break;
-			case 2:
-				for(int z=2;z>0;z--){
-					System.out.print(" ");
-				}
-				break;
-			case 3:
-				for(int z=1;z>0;z--){
-					System.out.print(" ");
-				}
-				break;
-			case 4:
-				for(int z=0;z>0;z--){
-					System.out.print(" ");
-				}
-				break;
+		for (int i = 0; i < 5; i++) {
+
+			for (int z = 4 - i; z > 0; z--) {
+				System.out.print(" ");
 			}
-			for(int j=0;j<=i;j++) {
-				
+
+			for (int j = 0; j <= i; j++) {
+
 				System.out.print("*");
 			}
 			System.out.println();
