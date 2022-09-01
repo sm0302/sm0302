@@ -1,0 +1,119 @@
+h1#l{
+	font-family: 'Hahmlet', serif;
+	position:absolute;
+	top:100px;
+	left:720px;
+	color:#f2e70d;
+	font-size:3.125em;
+}
+h1#u{
+	font-family: 'Hahmlet', serif;
+	color:#f2e70d;
+	position:absolute; 
+	top:40px; 
+	left:650px;
+}
+h1#r{
+	font-family: 'Hahmlet', serif;
+	color:#f2e70d;
+	position:absolute; 
+	top:40px; 
+	left:650px;
+	font-size: 50px;
+}
+body{
+	background-color: #494949;
+}
+table.login{
+	position:absolute;
+	top: 260px;
+	left: 680px;
+	
+}
+table.id{
+	position:absolute;
+	top: 350px;
+	left: 680px;
+}
+label{
+	color: #f2e70d;
+}
+input#a,#g{
+	color:#f2e70d;
+	background-color: #363c5c;
+}
+input#a:hover,#g:hover{
+	background-color:black;
+}
+table.success{
+	position:absolute;
+	top: 300px;
+	left: 380px;
+}
+input#b{
+	color:#f2e70d;
+	background-color: #363c5c;
+	width: 400px;
+	height: 150px;
+	font-size: 45px;
+}
+input#b:hover{
+	background-color:black;
+}
+table.register{
+	position:absolute;
+	top: 180px;
+	left: 450px;
+}
+td#name{
+	color:#f2e70d;
+}
+input#c,#d,#e,#textMessage{
+	color:#f2e70d;
+	background-color: #363c5c;
+}
+select#c{
+	color:#f2e70d;
+	background-color: #363c5c;
+}
+table.regi{
+	position:absolute;
+	top: 600px;
+	left: 600px;
+}
+input#c:hover,#d:hover,#e:hover{
+	background-color:black;
+}
+table.update{
+	position:absolute;
+	top: 200px;
+	left: 600px;
+}
+table.btn{
+	position:absolute;
+	top: 600px;
+	left: 600px;
+}
+div.chat{
+	position:absolute;
+	top: 50px;
+	left: 50px;
+}
+textarea#messageWindow{
+	color:#f2e70d;
+	background-color: #363c5c;
+}
+td#c{
+	border:1px solid yellow;
+	color:#f2e70d;
+	background-color: #363c5c;
+}
+table.btn2{
+	position:absolute;
+	top: 550px;
+	left: 650px;
+	
+}
+td#m{
+	color:#f2e70d;
+}
